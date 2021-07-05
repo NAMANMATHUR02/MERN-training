@@ -1,16 +1,23 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.css'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
 
 function Footer() {
     return (
         <React.Fragment>
-<footer className="text-center text-lg-start bg-light text-muted">
-  <div className="text-center p-4">
-    © 2021 Copyright:
-  </div>
-</footer>
+        <p
+        style={{
+          margin:0,
+          position: "fixed",
+          bottom: 0,
+          width: "100%",
+          textAlign: "center",
+          background:"lightblue",
+          height:"50px"
+        }}
+      >
+        Created by NAMAN MATHUR
+        © 2021 Copyright:
+      </p>
+</React.Fragment>)   
+}
 
-</React.Fragment>)
-    }
-    export default Footer;
+export default Footer;
